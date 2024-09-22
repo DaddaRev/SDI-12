@@ -2,7 +2,7 @@
 Implementation of the SDI-12 protocol in the C language for integration into STM32 microcontrollers code.
 To integrate the code for the operation of the protocol, it is necessary to have a microcontroller from the STM32 family. Code development via STM32CubeIDE is recommended for configuring GPIOs and Timers through the graphical interface made available. <br>
 For a better understanding of the SDI-12, check the official documentation [here](https://www.sdi-12.org/current_specification/SDI-12%20Specification%201.4%20February%2020%202023.pdf).
-<br>
+<br><br>
 Required:
 - 1 GPIO already configured. Pin used for the digital communication.
 - LPTIMER2. Low Power Timer used for synchronization functions.
