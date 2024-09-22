@@ -6,7 +6,7 @@ For a better understanding of the SDI-12, check the official documentation [here
 Required:
 - 1 GPIO already configured. Pin used for the digital communication.
 - LPTIMER2. Low Power Timer used for synchronization functions.
-<br>
+  
 The code shown includes two C files (with their respective headers) :
 1. **reconfigFun.c**. In which the reconfigFun() is used for the reconfiguration as an input or output of the pin used for digital communication on the SDI-12 bus.
 2. **sdi12.c**. Inside there are the functions for digital communication of the SDI-12 protocol.
